@@ -1,0 +1,1 @@
+{"version":3,"file":"game.result.js","sourceRoot":"","sources":["../kata/game.result.ts"],"names":[],"mappings":";;AAGA;IAKI,YAAY,KAAa,EAAE,MAAe;QACtC,IAAI,CAAC,KAAK,GAAG,KAAK,CAAC;IACvB,CAAC;IAED,IAAI,OAAO;QACP,MAAM,CAAC,IAAI,CAAC,MAAM,CAAC;IACvB,CAAC;IACD,IAAI,MAAM;QACN,MAAM,CAAC,IAAI,CAAC,KAAK,CAAC;IACtB,CAAC;CACJ;AAfD,wCAeC"}

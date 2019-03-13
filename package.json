@@ -1,0 +1,20 @@
+{
+  "name": "tennis",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {},
+  "scripts": {
+    "start-dev": "node main.js",
+    "test": "mocha -r ts-node/register kata/**/*.spec.ts"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.6",
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2",
+    "ts-node": "^4.1.0",
+    "tslint": "~5.9.1",
+    "typescript": "~2.5.3"
+  }
+}
