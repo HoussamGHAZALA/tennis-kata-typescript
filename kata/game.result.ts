@@ -14,6 +14,7 @@ export class ResultByPlayer {
     get _player() {
         return this.player;
     }
+
     get _score(): string {
         return this.score;
     }

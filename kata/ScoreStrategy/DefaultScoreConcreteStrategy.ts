@@ -9,11 +9,9 @@ export class DefaultScoreConcreteStrategy implements ScoreStrategy{
     //will display the current score, using the style
     //described on basics.
     getGameResult(firstPlayer: Player, secondPlayer: Player): ResultByPlayer[] {
-        console.log('firstPlayer : ', new ResultByPlayer(Score[firstPlayer._score], firstPlayer));
-        //console.log('firstPlayer score : ', Score[firstPlayer._score]);
         return[
             new ResultByPlayer(Score[firstPlayer._score], firstPlayer),
-            new ResultByPlayer(Score[secondPlayer._score], secondPlayer)
+            new ResultByPlayer(Score[secondPlayer._score ], secondPlayer)
         ];
 
     }

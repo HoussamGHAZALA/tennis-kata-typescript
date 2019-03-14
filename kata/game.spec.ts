@@ -16,8 +16,8 @@ describe('game class', () => {
 
         expect(actualScore).to.deep.equal(
             [
-                new ResultByPlayer('LOVE', nadal),
-                new ResultByPlayer('FIFTEEN', djokovic)
+                new ResultByPlayer('FIFTEEN', nadal),
+                new ResultByPlayer('THIRTY', djokovic)
             ]
         );
     });
