@@ -4,6 +4,7 @@ import {WinScoreConcreteStrategy} from "./ScoreStrategy/WinScoreConcreteStrategy
 import {DeuceScoreConcreteStrategy} from "./ScoreStrategy/DeuceScoreConcreteStrategy";
 import {ScoreStrategy} from "./ScoreStrategy/ScoreStrategy";
 import {DefaultScoreConcreteStrategy} from "./ScoreStrategy/DefaultScoreConcreteStrategy";
+import {ResultByPlayer} from "./game.result";
 
 export class Game {
     private readonly first: Player;
@@ -14,10 +15,10 @@ export class Game {
         this.first = first;
         this.second = second;
         this.strategies = [
-            new DefaultScoreConcreteStrategy(this.first, this.second),
-            new DeuceScoreConcreteStrategy(this.first, this.second),
-            new AdvantageScoreConcreteStrategy(this.first, this.second),
-            new WinScoreConcreteStrategy(this.first, this.second)
+            new DefaultScoreConcreteStrategy(),
+            new DeuceScoreConcreteStrategy(),
+            new AdvantageScoreConcreteStrategy(),
+            new WinScoreConcreteStrategy()
         ]
     }
 
@@ -26,13 +27,14 @@ export class Game {
     }
 
     //Todo to move to a strategy context...
-    public getScoreBetweenPlayers(): ScoreStrategy {
-        const [responsibleStrategie] = this.strategies
-            .filter(strategie => strategie.isResponsible())
+    public getScoreBetweenPlayers(firstPlayer: Player,
+                                  secondPlayer: Player): ResultByPlayer[] {
+        const [gameResult] = this.strategies
+            .filter(strategie => strategie.isResponsible(firstPlayer, secondPlayer))
             .map(
-                strategie => strategie.getGameResult()
+                strategie => strategie.getGameResult(firstPlayer, secondPlayer)
             );
-        return responsibleStrategie;
+        return gameResult;
     }
 
 }

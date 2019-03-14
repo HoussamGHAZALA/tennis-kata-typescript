@@ -5,27 +5,21 @@ import {Score} from "../score";
 
 export class DefaultScoreConcreteStrategy implements ScoreStrategy{
 
-    private firstPlayer: Player;
-    private secondPlayer : Player;
-
-    constructor(first: Player, second: Player) {
-        this.firstPlayer = first;
-        this.secondPlayer = second;
-    }
-
     //After each point has been submitted the system
     //will display the current score, using the style
     //described on basics.
-    getGameResult(): ResultByPlayer[] {
+    getGameResult(firstPlayer: Player, secondPlayer: Player): ResultByPlayer[] {
+        console.log('firstPlayer : ', new ResultByPlayer(Score[firstPlayer._score], firstPlayer));
+        //console.log('firstPlayer score : ', Score[firstPlayer._score]);
         return[
-            new ResultByPlayer(Score[this.firstPlayer._score], this.firstPlayer),
-            new ResultByPlayer(Score[this.secondPlayer._score], this.secondPlayer)
+            new ResultByPlayer(Score[firstPlayer._score], firstPlayer),
+            new ResultByPlayer(Score[secondPlayer._score], secondPlayer)
         ];
 
     }
 
-    isResponsible(): boolean {
-        return this.firstPlayer._score < 3 && this.secondPlayer._score < 3;
+    isResponsible(firstPlayer: Player, secondPlayer: Player): boolean {
+        return firstPlayer._score < 3 && secondPlayer._score < 3;
     }
 
 

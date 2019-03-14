@@ -1,3 +1,5 @@
+import {PlayerByEcart} from "./player-by-ecart";
+
 export default class Player {
 
     private name: string;
@@ -21,5 +23,17 @@ export default class Player {
     public scores() {
         this.score = this.score + 1;
         return this;
+    }
+
+    public static playerPoints(firstPlayer: Player, secondPlayer: Player) {
+        const mathematicEcart = firstPlayer._score - secondPlayer._score;
+        const ecart = Math.abs(mathematicEcart);
+        if(mathematicEcart > 0) {
+            return new PlayerByEcart(ecart, firstPlayer)
+        }
+        if(mathematicEcart < 0) {
+            return new PlayerByEcart(ecart, secondPlayer)
+        }
+        return new PlayerByEcart(0, new Player(''));
     }
 }

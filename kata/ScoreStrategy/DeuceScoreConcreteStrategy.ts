@@ -5,22 +5,14 @@ import {Score} from "../score";
 
 export class DeuceScoreConcreteStrategy implements ScoreStrategy {
 
-    private firstPlayer: Player;
-    private secondPlayer : Player;
-
-    constructor(first: Player, second: Player) {
-        this.firstPlayer = first;
-        this.secondPlayer = second;
-    }
-
-    isResponsible(): boolean {
-        return this.firstPlayer._score === this.secondPlayer._score &&
-            this.firstPlayer._score >= 3;
+    isResponsible(firstPlayer: Player, secondPlayer: Player): boolean {
+        return (firstPlayer._score === secondPlayer._score) &&
+            firstPlayer._score >= 3;
     }
 
     //If at least three points have been scored by each player,
     //and the scores are equal, the score is “deuce”.
-    getGameResult(): ResultByPlayer[] {
+    getGameResult(firstPlayer: Player, secondPlayer: Player): ResultByPlayer[] {
         return [new ResultByPlayer(Score[Score.DEUCE])];
     }
 
