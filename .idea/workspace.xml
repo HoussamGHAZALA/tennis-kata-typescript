@@ -4,53 +4,6 @@
     <list default="true" id="452f9745-d540-4128-8790-86685774cccc" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/dist/Game.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/Game.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/GameResult.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/GameResult.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/Player.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/Player.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/Player.spec.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/Player.spec.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/PlayerByEcart.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/PlayerByEcart.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/Score.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/Score.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/ScoreStrategy/AdvantageScoreConcreteStrategy.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/ScoreStrategy/AdvantageScoreConcreteStrategy.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/ScoreStrategy/DefaultScoreConcreteStrategy.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/ScoreStrategy/DefaultScoreConcreteStrategy.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/ScoreStrategy/DeuceScoreConcreteStrategy.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/ScoreStrategy/DeuceScoreConcreteStrategy.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/ScoreStrategy/DeuceScoreStrategy.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/ScoreStrategy/DeuceScoreStrategy.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/ScoreStrategy/ScoreStrategy.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/ScoreStrategy/ScoreStrategy.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/ScoreStrategy/StrategyContext.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/ScoreStrategy/StrategyContext.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/ScoreStrategy/StrategyFactory.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/ScoreStrategy/StrategyFactory.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/ScoreStrategy/WinScoreConcreteStrategy.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/ScoreStrategy/WinScoreConcreteStrategy.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/game.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/game.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/game.result.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/game.result.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/main.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/player-by-ecart.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/player-by-ecart.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/player.by.ecart.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/player.by.ecart.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/player.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/player.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/player.spec.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/player.spec.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/score.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/score.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/kata/Game.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/kata/Player.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/kata/Score.js" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -76,8 +29,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+            <state relative-caret-position="18">
+              <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -831,12 +784,20 @@
       <workItem from="1552216461210" duration="13207000" />
       <workItem from="1552333027326" duration="15242000" />
       <workItem from="1552458645124" duration="657000" />
-      <workItem from="1552593463413" duration="119000" />
+      <workItem from="1552593463413" duration="226000" />
     </task>
+    <task id="LOCAL-00001" summary="update gitignore">
+      <created>1552593600073</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1552593600074</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55873000" />
+    <option name="totallyTimeSpent" value="55980000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="68" y="68" width="1303" height="780" extended-state="6" />
@@ -849,7 +810,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.50278884" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.49721116" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -904,6 +865,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="update gitignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1195,8 +1160,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        <state relative-caret-position="18">
+          <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
           <folding />
         </state>
       </provider>
