@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="452f9745-d540-4128-8790-86685774cccc" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/kata/game.spec.ts" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/kata/ScoreStrategy/AdvantageScoreConcreteStrategy.ts" afterPath="$PROJECT_DIR$/kata/ScoreStrategy/AdvantageScoreConcreteStrategy.ts" />
-      <change beforePath="$PROJECT_DIR$/kata/ScoreStrategy/DefaultScoreConcreteStrategy.ts" afterPath="$PROJECT_DIR$/kata/ScoreStrategy/DefaultScoreConcreteStrategy.ts" />
-      <change beforePath="$PROJECT_DIR$/kata/ScoreStrategy/DeuceScoreConcreteStrategy.ts" afterPath="$PROJECT_DIR$/kata/ScoreStrategy/DeuceScoreConcreteStrategy.ts" />
-      <change beforePath="$PROJECT_DIR$/kata/ScoreStrategy/ScoreStrategy.ts" afterPath="$PROJECT_DIR$/kata/ScoreStrategy/ScoreStrategy.ts" />
-      <change beforePath="$PROJECT_DIR$/kata/ScoreStrategy/WinScoreConcreteStrategy.ts" afterPath="$PROJECT_DIR$/kata/ScoreStrategy/WinScoreConcreteStrategy.ts" />
-      <change beforePath="$PROJECT_DIR$/kata/game.result.ts" afterPath="$PROJECT_DIR$/kata/game.result.ts" />
-      <change beforePath="$PROJECT_DIR$/kata/game.ts" afterPath="$PROJECT_DIR$/kata/game.ts" />
-      <change beforePath="$PROJECT_DIR$/kata/player-by-ecart.ts" afterPath="$PROJECT_DIR$/kata/player-by-ecart.ts" />
-      <change beforePath="$PROJECT_DIR$/kata/player.ts" afterPath="$PROJECT_DIR$/kata/player.ts" />
+      <change beforePath="$PROJECT_DIR$/kata/Readme.md" afterPath="$PROJECT_DIR$/Readme.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -69,12 +60,25 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="WinScoreConcreteStrategy.ts" pinned="false" current-in-tab="true">
+          <file leaf-file-name="WinScoreConcreteStrategy.ts" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/kata/ScoreStrategy/WinScoreConcreteStrategy.ts">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="234">
-                  <caret line="17" column="59" lean-forward="false" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
+                  <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
                   <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Readme.md" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Readme.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="SPLIT">
+                  <first_editor relative-caret-position="0">
+                    <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                    <folding />
+                  </first_editor>
+                  <second_editor />
                 </state>
               </provider>
             </entry>
@@ -108,8 +112,8 @@
           <file leaf-file-name="game.spec.ts" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/kata/game.spec.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1098">
-                  <caret line="61" column="41" lean-forward="false" selection-start-line="61" selection-start-column="41" selection-end-line="61" selection-end-column="41" />
+                <state relative-caret-position="162">
+                  <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
                   <folding>
                     <element signature="e#0#30#0" expanded="true" />
                   </folding>
@@ -675,6 +679,9 @@
     <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/node_modules/mocha" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/kata" />
       <recent name="$PROJECT_DIR$/kata/ScoreStrategy" />
@@ -859,7 +866,7 @@
       <workItem from="1552216461210" duration="13207000" />
       <workItem from="1552333027326" duration="15242000" />
       <workItem from="1552458645124" duration="657000" />
-      <workItem from="1552593463413" duration="4537000" />
+      <workItem from="1552593463413" duration="4848000" />
     </task>
     <task id="LOCAL-00001" summary="update gitignore">
       <created>1552593600073</created>
@@ -875,11 +882,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552593694131</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="tests">
+      <created>1552598315631</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1552598315631</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60291000" />
+    <option name="totallyTimeSpent" value="60602000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="68" y="68" width="1303" height="780" extended-state="6" />
@@ -950,7 +964,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="update gitignore" />
+    <MESSAGE value="tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -959,14 +974,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kata/game.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -1211,16 +1218,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kata/game.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1098">
-          <caret line="61" column="41" lean-forward="false" selection-start-line="61" selection-start-column="41" selection-end-line="61" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kata/player-by-ecart.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="53">
@@ -1255,11 +1252,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/kata/game.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/kata/ScoreStrategy/WinScoreConcreteStrategy.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
-          <caret line="17" column="59" lean-forward="false" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
+          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
