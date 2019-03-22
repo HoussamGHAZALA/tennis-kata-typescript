@@ -1,10 +1,10 @@
 import Player from "./player";
-import {AdvantageScoreConcreteStrategy} from "./ScoreStrategy/AdvantageScoreConcreteStrategy";
-import {WinScoreConcreteStrategy} from "./ScoreStrategy/WinScoreConcreteStrategy";
-import {DeuceScoreConcreteStrategy} from "./ScoreStrategy/DeuceScoreConcreteStrategy";
-import {ScoreStrategy} from "./ScoreStrategy/ScoreStrategy";
-import {DefaultScoreConcreteStrategy} from "./ScoreStrategy/DefaultScoreConcreteStrategy";
+import {AdvantageScoreConcreteStrategy} from "./ScoreStrategy/advantageScoreConcrete.strategy";
+import {WinScoreConcreteStrategy} from "./ScoreStrategy/winScoreConcrete.strategy";
+import {DeuceScoreConcreteStrategy} from "./ScoreStrategy/deuceScoreConcrete.strategy";
+import {DefaultScoreConcreteStrategy} from "./ScoreStrategy/defaultScoreConcrete.strategy";
 import {ResultByPlayer} from "./game.result";
+import {GameFactory} from "./ScoreStrategy/game.factory";
 
 export class Game {
     private readonly first: Player;
@@ -22,19 +22,11 @@ export class Game {
         ]
     }
 
-    public play() {
-        //Todo : a match with random player.scores()
-    }
-
-    //Todo to move to a strategy context...
     public getScoreBetweenPlayers(firstPlayer: Player,
                                   secondPlayer: Player): ResultByPlayer[] {
-        const [gameResult] = this.strategies
-            .filter(strategie => strategie.isResponsible(firstPlayer, secondPlayer))
-            .map(
-                strategie => strategie.getGameResult(firstPlayer, secondPlayer)
-            );
-        return gameResult;
+        return new GameFactory()
+            .selectGameStrategy(firstPlayer, secondPlayer)
+            .getGameResult(firstPlayer, secondPlayer)
     }
 
 }

@@ -1,6 +1,6 @@
 import Player from "./player";
 
-export class PlayerByEcart {
+export class PlayerDiscard {
     private ecart: number;
     private player?: Player;
 

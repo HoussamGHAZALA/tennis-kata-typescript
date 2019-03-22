@@ -1,9 +1,9 @@
 import Player from "../player";
-import {ScoreStrategy} from "./ScoreStrategy";
+import {GameStrategy} from "./game.strategy";
 import {ResultByPlayer} from "../game.result";
 import {Score} from "../score";
 
-export class AdvantageScoreConcreteStrategy implements ScoreStrategy {
+export class AdvantageScoreConcreteStrategy implements GameStrategy {
 
 
     isResponsible(firstPlayer: Player, secondPlayer: Player): boolean {

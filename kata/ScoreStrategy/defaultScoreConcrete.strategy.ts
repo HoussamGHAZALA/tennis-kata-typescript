@@ -1,9 +1,9 @@
-import {ScoreStrategy} from "./ScoreStrategy";
+import {GameStrategy} from "./game.strategy";
 import {ResultByPlayer} from "../game.result";
 import Player from "../player";
 import {Score} from "../score";
 
-export class DefaultScoreConcreteStrategy implements ScoreStrategy{
+export class DefaultScoreConcreteStrategy implements GameStrategy{
 
     //After each point has been submitted the system
     //will display the current score, using the style

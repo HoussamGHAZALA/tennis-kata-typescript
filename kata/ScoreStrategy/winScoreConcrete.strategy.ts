@@ -1,10 +1,10 @@
-import {ScoreStrategy} from "./ScoreStrategy";
+import {GameStrategy} from "./game.strategy";
 import Player from "../player";
 import {ResultByPlayer} from "../game.result";
 import {Score} from "../score";
-import {PlayerByEcart} from "../player-by-ecart";
+import {PlayerDiscard} from "../player-by-ecart";
 
-export class WinScoreConcreteStrategy implements ScoreStrategy {
+export class WinScoreConcreteStrategy implements GameStrategy {
 
     //A game is won by the firstPlayer player to have won
     //at least four points in total and at least two points

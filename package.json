@@ -6,7 +6,7 @@
   "dependencies": {},
   "scripts": {
     "start-dev": "node main.js",
-    "test": "mocha -r ts-node/register kata/**/*.spec.ts"
+    "test": "mocha -r ts-node/register kata/**/**/*.spec.ts"
   },
   "devDependencies": {
     "@types/chai": "^4.1.7",

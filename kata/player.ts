@@ -1,4 +1,4 @@
-import {PlayerByEcart} from "./player-by-ecart";
+import {PlayerDiscard} from "./player-by-ecart";
 
 export default class Player {
 
@@ -29,11 +29,11 @@ export default class Player {
         const mathematicEcart = firstPlayer._score - secondPlayer._score;
         const ecart = Math.abs(mathematicEcart);
         if(mathematicEcart > 0) {
-            return new PlayerByEcart(ecart, firstPlayer)
+            return new PlayerDiscard(ecart, firstPlayer)
         }
         if(mathematicEcart < 0) {
-            return new PlayerByEcart(ecart, secondPlayer)
+            return new PlayerDiscard(ecart, secondPlayer)
         }
-        return new PlayerByEcart(0, new Player(''));
+        return new PlayerDiscard(0, new Player(''));
     }
 }
